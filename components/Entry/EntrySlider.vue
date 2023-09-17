@@ -15,19 +15,19 @@
   >
     <swiper-slide>
       <div class="block__item">
-        <img src="images/slider/slider_1.png" alt="photo_1">
+        <img src="/images/slider/slider_1.png" alt="photo_1">
         <div class="text">Професії: <span class="focus-bold">Головбух, Фіндир, HR</span></div>
       </div>
     </swiper-slide>
     <swiper-slide>
       <div class="block__item">
-        <img src="images/slider/slider_2.png" alt="photo_2">
+        <img src="/images/slider/slider_2.png" alt="photo_2">
         <div class="text"><span class="focus-bold">Закриті клубні лекції</span></div>
       </div>
     </swiper-slide>
     <swiper-slide>
       <div class="block__item">
-        <img src="images/slider/slider_3.png" alt="photo_3">
+        <img src="/images/slider/slider_3.png" alt="photo_3">
         <div class="text">Підвищення кваліфікації: <span class="focus-bold">ПДВ, ЗП, ЗЕД, ФОП та ін.</span></div>
       </div>
     </swiper-slide>
