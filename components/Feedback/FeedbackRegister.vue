@@ -107,9 +107,9 @@ async function submitForm() {
       const response = await fetch('https://7eminar.ua/api/clients/campaign/test', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json;charset=utf-8'
+          'Content-Type': 'application/json;charset=utf-8',
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(formData),
       })
       if (response.ok) {
         statusSubmit.value='Дані успішно надіслані';
@@ -117,6 +117,7 @@ async function submitForm() {
       } else {
         statusSubmit.value='Не вдалося надіслати дані';
       }
+      console.log('Response:', response);
     } catch (error) {
         console.error('Error:', error);
         statusSubmit.value='Ошибка';
