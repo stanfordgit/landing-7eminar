@@ -11,6 +11,7 @@
 
 <style lang="scss" scoped>
   .entry__top{
+    padding: 0 24px;
     display: flex;
     flex-direction: column;
     align-items: center;

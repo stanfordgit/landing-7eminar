@@ -11,7 +11,7 @@
 
 <style lang="scss" scoped>
   .entry__offer{
-
+    padding: 0 24px;
     font-family: "eUkraineHead", sans-serif;
     font-size: 16px;
     font-weight: 600;

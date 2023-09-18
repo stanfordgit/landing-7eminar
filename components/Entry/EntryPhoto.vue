@@ -24,7 +24,6 @@
 <style lang="scss" scoped>
 .entry__photo{
   margin: 40px 0;
-  
   .photo__block{
     display: flex;
     justify-content: center;
@@ -35,7 +34,6 @@
       position: relative;
       display: flex;
       justify-content: center;
- 
       text-align: center;
       height: 590px;
       &:nth-child(2)

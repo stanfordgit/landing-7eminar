@@ -4,13 +4,34 @@
     class="swiper-container"
     :modules="modules"
     :slides-per-view="2"
-    :initial-slide="1"
-    :space-between="30"
-   
+    :initial-slide="1"   
     centered-slides
+    :space-between="270"
     :navigation="{
       prevEl: '.swiper-button-prev',
       nextEl: '.swiper-button-next',
+    }"
+    :breakpoints=" {
+      320: {
+        spaceBetween: '250',
+      },
+      400:{
+        spaceBetween: '230'
+      },
+      500: {
+        spaceBetween: '140'
+      },
+      640: {
+     
+        spaceBetween: '60'
+      },
+      740: {
+     
+        spaceBetween: '30'
+      },
+      800: {
+        spaceBetween: '0'
+      }
     }"
   >
     <swiper-slide>
@@ -69,7 +90,6 @@ const modules = [Navigation]
     align-self: flex-end;
     height: 590px;
     transition: margin-bottom 0.5s ease;
-
       &.swiper-slide-active{
         margin-bottom: 48px;
         z-index: 1;
@@ -79,7 +99,7 @@ const modules = [Navigation]
       display: flex;
       justify-content: center;
       text-align: center;
- 
+      
       img{
         max-width: 290px;
         height: auto;
